@@ -10,6 +10,9 @@
                     <div class="card-body">
                         <livewire:inputs-manager />
                     </div>
+                    <div class="card-body">
+                        <livewire:autocomplete-search />
+                    </div>
                 </div>
             </div>
         </div>
