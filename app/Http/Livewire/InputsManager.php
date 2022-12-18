@@ -37,6 +37,12 @@ class InputsManager extends Component
         $this->storeState();
     }
 
+    /**
+     * updated{name-of-the-property}
+     *
+     * @param $value
+     * @return void
+     */
     public function updatedInputs($value)
     {
         $this->storeState();
