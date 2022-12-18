@@ -57,7 +57,7 @@ class AutocompleteSearch extends Component
         }
 
         $this->titlesFiltered = $this->allTitles->filter(
-            fn(string $title) => Str::contains($title, $search)
+            fn(string $title) => Str::contains($title, $search, true)
         );
     }
 
